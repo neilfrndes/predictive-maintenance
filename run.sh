@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Activate environment and install packages
+conda init bash
+conda activate tensorflow2_latest_p37
 source activate tensorflow2_latest_p37
 pip install -r requirements.txt
 
