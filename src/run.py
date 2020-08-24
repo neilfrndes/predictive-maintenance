@@ -216,7 +216,7 @@ precision = precision_score(y_true, y_pred)
 recall = recall_score(y_true, y_pred)
 logger.info(
     "\nTRAINING METRICS\n"
-    "Num Records: %d"
+    "Num Records: %d\n"
     "Accuracy: %.2f\n"
     "Precision: %.2f\n"
     "Recall: %.2f\n"
@@ -264,7 +264,7 @@ f1_test = 2 * (precision_test * recall_test) / (precision_test + recall_test)
 
 logger.info(
     "\nINFERENCING METRICS\n"
-    "Num Records: %d"
+    "Num Records: %d\n"
     "Accuracy: %.2f\n"
     "Precision: %.2f\n"
     "Recall: %.2f\n"
